@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PEREZ TECH — Segurança, Automação e Soluções Digitais</title>
+  <meta name="description" content="Soluções tecnológicas completas para residências e empresas. Segurança, automação, redes, áudio e presença digital. Tecnologia, Segurança e Automação.">
+  <meta name="author" content="PEREZ TECH">
+  <meta name="theme-color" content="#05070d">
+
+  <!-- Open Graph / SEO -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="PEREZ TECH — Segurança, Automação e Soluções Digitais">
+  <meta property="og:description" content="Do cabeamento estruturado às soluções digitais. Transformamos sua casa ou empresa.">
+  <meta property="og:locale" content="pt_BR">
+
+  <!-- Favicon oficial -->
+<link rel="icon" href="./src/image/logo.png.png">
+
+  <!-- Fontes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap">
+  
+  <!-- CSS Principal -->
+  <link rel="stylesheet" href="./src/css/style.css">
+</head>
+<body>
+
+  <!-- Textura sutil global -->
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- Barra de progresso de rolagem -->
+  <div class="progress" aria-hidden="true"><span class="progress__bar"></span></div>
+
+  <!-- ============================= NAVBAR ============================= -->
+  <header class="nav" id="nav">
+    <div class="container nav__inner">
+      
+      <!-- Logo -->
+        <a href="#hero" class="logo" aria-label="PEREZ TECH — início">
+        <img src="./src/image/logo.png.png" alt="PEREZ TECH" class="logo__img">
+      </a>
+
+      <!-- Links de Navegação -->
+      <nav class="nav__links" id="navLinks" aria-label="Navegação principal">
+        <a href="#servicos">Serviços</a>
+        <a href="#solucoes-digitais">Soluções Digitais</a>
+        <a href="#cartoes">Cartões 3D</a>
+        <a href="#como-funciona">Como funciona</a>
+        <a href="#contato" data-wa data-service="geral" class="nav__links-cta">Falar com especialista</a>
+      </nav>
+
+      <!-- Botão CTA Navbar -->
+      <a href="#contato" data-wa data-service="geral" class="btn btn--ghost nav__cta magnetic">WhatsApp</a>
+
+      <!-- Botão Hambúrguer Mobile -->
+      <button class="nav__toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="navLinks">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      
+    </div>
+  </header>
+
+  <main>
+    <!-- ============================= HERO ============================= -->
+    <section class="hero" id="hero">
+      <div class="hero__bg" aria-hidden="true"></div>
+
+      <div class="container hero__inner">
+        
+        <!-- Texto Hero -->
+        <div class="hero__copy" data-stagger>
+          <span class="eyebrow reveal">
+            <span class="dot"></span> Tecnologia, Segurança e Automação
+          </span>
+
+          <h1 class="reveal">
+            Sua casa ou empresa,<br>mais <em>inteligente</em> e <em>segura</em>.
+          </h1>
+
+          <p class="hero__sub reveal">
+            Soluções completas em infraestrutura, segurança e automação.
+            Do cabeamento à avaliação no Google, conectamos seu ambiente ao futuro.
+          </p>
+
+          <div class="hero__actions reveal">
+            <a href="#servicos" class="btn btn--primary magnetic">
+              Explorar soluções
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a href="#contato" data-wa data-service="geral" class="btn btn--ghost magnetic">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.46 1.32 4.96L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2Zm5.8 14.06c-.24.68-1.4 1.3-1.93 1.35-.53.05-1.02.24-3.44-.72-2.92-1.15-4.75-4.16-4.9-4.36-.14-.2-1.15-1.53-1.15-2.92 0-1.39.73-2.07.99-2.35.26-.28.56-.35.75-.35.19 0 .38 0 .54.01.17.01.4-.07.63.48.24.56.8 1.95.87 2.09.07.14.12.31.02.5-.1.19-.15.31-.29.48-.14.17-.3.38-.43.51-.14.14-.29.29-.12.57.17.28.75 1.24 1.62 2.01 1.11.99 2.05 1.3 2.34 1.44.29.14.46.12.63-.07.17-.19.72-.84.91-1.13.19-.29.38-.24.63-.14.26.1 1.65.78 1.93.92.29.14.48.21.55.33.07.12.07.68-.17 1.36Z"/></svg>
+              Solicitar orçamento
+            </a>
+          </div>
+
+          <ul class="hero__stats reveal">
+            <li><strong>Residencial</strong><span>Conforto e praticidade</span></li>
+            <li><strong>Comercial</strong><span>Segurança e produtividade</span></li>
+            <li><strong>Integrado</strong><span>Tudo em um só lugar</span></li>
+          </ul>
+        </div>
+
+        <!-- Visual Hero (Placa NFC 3D e Ícones) -->
+        <div class="hero__visual" aria-hidden="true">
+          <div class="scene">
+            
+            <!-- Ícones Flutuantes -->
+            <div class="floating-icon floating-icon--shield">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <div class="floating-icon floating-icon--wifi">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12.55a11 11 0 0 1 14.08 0"/><path d="M1.42 9a16 16 0 0 1 21.16 0"/><path d="M8.53 16.11a6 6 0 0 1 6.95 0"/><circle cx="12" cy="20" r="1"/></svg>
+            </div>
+            <div class="floating-icon floating-icon--light">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 18h6"/><path d="M10 22h4"/><path d="M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0 0 18 8 6 6 0 0 0 6 8c0 1 .23 2.23 1.5 3.5A4.61 4.61 0 0 1 8.91 14"/></svg>
+            </div>
+
+            <!-- Placa Principal -->
+            <div class="plaque-float">
+              <div class="plaque" data-tilt="9">
+                <div class="plaque__top">
+                  <span class="plaque__nfc">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M6.5 8.5a7 7 0 0 0 0 7"/><path d="M9.5 6.2a10.5 10.5 0 0 1 0 11.6"/><path d="M12.5 3.9a14 14 0 0 1 0 16.2"/></svg>
+                  </span>
+                  <span class="plaque__hint">Aproxime seu celular</span>
+                </div>
+                <div class="plaque__qr qr" data-qr data-seed="11"></div>
+                <div class="plaque__bottom">
+                  <strong>Avalie-nos no Google</strong>
+                  <span class="stars" aria-hidden="true">★★★★★</span>
+                </div>
+              </div>
+            </div>
+            
+            <span class="orbit-dot orbit-dot--1"></span>
+            <span class="orbit-dot orbit-dot--2"></span>
+          </div>
+        </div>
+        
+      </div>
+
+      <a href="#servicos" class="hero__scroll" aria-label="Rolar para baixo"><span></span></a>
+    </section>
+
+    <!-- ========================= SERVIÇOS (BENTO GRID) ========================= -->
+    <section class="section services" id="servicos">
+      <div class="container">
+        
+        <div class="section__head" data-stagger>
+          <span class="eyebrow reveal"><span class="dot"></span> Nosso Portfólio</span>
+          <h2 class="reveal">Soluções completas,<br>do <span class="grad">cabo ao digital</span>.</h2>
+          <p class="reveal">Explore as categorias e descubra como podemos transformar seu ambiente.</p>
+        </div>
+
+        <div class="bento-grid">
+          
+          <!-- 1. Segurança -->
+          <article class="bento-card bento-card--large reveal" data-service="seguranca">
+            <img class="bento-img" src="https://images.unsplash.com/photo-1557804506-669a67965ba0?q=80&w=800&auto=format&fit=crop" alt="Câmera de segurança" loading="lazy">
+            <div class="bento-bg bento-bg--security"></div>
+            <div class="bento-content">
+              <span class="bento-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></span>
+              <h3>Segurança e Monitoramento</h3>
+              <p>Proteja o que mais importa com sistemas modernos.</p>
+              <ul class="bento-list">
+                <li>Instalação de câmeras (CFTV)</li>
+                <li>Configuração de DVR e NVR</li>
+                <li>Acesso remoto e monitoramento</li>
+                <li>Controle de acesso</li>
+                <li>Configuração de sistemas</li>
+              </ul>
+              <a href="#contato" data-wa data-service="seguranca" class="bento-link">Proteger meu espaço &rarr;</a>
+            </div>
+          </article>
+
+          <!-- 2. Automação -->
+          <article class="bento-card bento-card--tall reveal" data-service="automacao">
+            <img class="bento-img" src="https://images.unsplash.com/photo-1558002038-1055907df827?q=80&w=800&auto=format&fit=crop" alt="Casa inteligente" loading="lazy">
+            <div class="bento-bg bento-bg--automation"></div>
+            <div class="bento-content">
+              <span class="bento-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 18h6"/><path d="M10 22h4"/><path d="M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0 0 18 8 6 6 0 0 0 6 8c0 1 .23 2.23 1.5 3.5A4.61 4.61 0 0 1 8.91 14"/></svg></span>
+              <h3>Automação Residencial</h3>
+              <p>Conforto e praticidade na palma da sua mão.</p>
+              <ul class="bento-list">
+                <li>Automação de iluminação</li>
+                <li>Cortinas e persianas</li>
+                <li>Integração com Alexa</li>
+                <li>Criação de cenas e rotinas</li>
+                <li>Integração de dispositivos</li>
+              </ul>
+              <a href="#contato" data-wa data-service="automacao" class="bento-link">Automatizar minha casa &rarr;</a>
+            </div>
+          </article>
+
+          <!-- 3. Redes -->
+          <article class="bento-card bento-card--wide reveal" data-service="redes">
+            <img class="bento-img" src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?q=80&w=800&auto=format&fit=crop" alt="Infraestrutura de rede" loading="lazy">
+            <div class="bento-bg bento-bg--network"></div>
+            <div class="bento-content">
+              <span class="bento-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12.55a11 11 0 0 1 14.08 0"/><path d="M1.42 9a16 16 0 0 1 21.16 0"/><path d="M8.53 16.11a6 6 0 0 1 6.95 0"/><circle cx="12" cy="20" r="1"/></svg></span>
+              <h3>Redes e Infraestrutura</h3>
+              <p>Internet rápida, estável e cabeamento organizado.</p>
+              <ul class="bento-list">
+                <li>Estruturação de redes cabeadas</li>
+                <li>Cabeamento estruturado</li>
+                <li>Configuração de roteadores e switches</li>
+                <li>Instalação de access points</li>
+                <li>Projetos e otimização Wi-Fi</li>
+                <li>Organização de racks</li>
+              </ul>
+              <a href="#contato" data-wa data-service="redes" class="bento-link">Melhorar minha conexão &rarr;</a>
+            </div>
+          </article>
+
+          <!-- 4. Áudio e Vídeo -->
+          <article class="bento-card reveal" data-service="audiovisual">
+            <img class="bento-img" src="https://images.unsplash.com/photo-1593784991095-a205069470b6?q=80&w=800&auto=format&fit=crop" alt="Home Cinema" loading="lazy">
+            <div class="bento-bg bento-bg--audio"></div>
+            <div class="bento-content">
+              <span class="bento-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg></span>
+              <h3>Áudio e Vídeo</h3>
+              <p>Entretenimento de alta qualidade.</p>
+              <ul class="bento-list">
+                <li>Instalação de home cinema</li>
+                <li>Sonorização de ambientes</li>
+                <li>Sistemas de áudio distribuído</li>
+              </ul>
+              <a href="#contato" data-wa data-service="audiovisual" class="bento-link">Montar meu espaço &rarr;</a>
+            </div>
+          </article>
+
+          <!-- 5. Soluções Digitais -->
+          <article class="bento-card reveal" data-service="digital">
+            <img class="bento-img" src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=800&auto=format&fit=crop" alt="Placa NFC e Tecnologia" loading="lazy">
+            <div class="bento-bg bento-bg--digital"></div>
+            <div class="bento-content">
+              <span class="bento-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18"/><path d="M10 14h4"/></svg></span>
+              <h3>Soluções Digitais</h3>
+              <p>Presença online e física para sua empresa.</p>
+              <ul class="bento-list">
+                <li>Plaquinhas NFC e QR Code</li>
+                <li>Captação de avaliações</li>
+                <li>Cartões de visita digitais</li>
+                <li>Landing pages profissionais</li>
+              </ul>
+              <a href="#solucoes-digitais" class="bento-link">Ver soluções digitais &rarr;</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================= SOLUÇÕES DIGITAIS (NFC) ========================= -->
+    <section class="section nfc" id="solucoes-digitais">
+      <div class="container">
+        
+        <div class="section__head" data-stagger>
+          <span class="eyebrow reveal"><span class="dot"></span> Soluções Digitais</span>
+          <h2 class="reveal">Presença física,<br>impacto <span class="grad">digital</span>.</h2>
+          <p class="reveal">
+            Nossa linha de plaquetas NFC e QR Code conecta seu cliente ao Google em um toque.
+          </p>
+        </div>
+
+        <div class="nfc__grid">
+          
+          <!-- Demonstração Interativa -->
+          <div class="demo reveal" id="nfc-demo">
+            <div class="demo__floor"></div>
+            
+            <div class="demo__plaque" id="nfc-plaque" title="Clique para simular a aproximação">
+              <div class="plaque plaque--sm" data-tilt="12">
+                <div class="plaque__top">
+                  <span class="plaque__nfc">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M6.5 8.5a7 7 0 0 0 0 7"/><path d="M9.5 6.2a10.5 10.5 0 0 1 0 11.6"/><path d="M12.5 3.9a14 14 0 0 1 0 16.2"/></svg>
+                  </span>
+                  <span class="plaque__hint">Aproxime</span>
+                </div>
+                <div class="plaque__qr qr" data-qr data-seed="42"></div>
+                <div class="plaque__bottom">
+                  <strong>Avalie-nos</strong>
+                  <span class="stars">★★★★★</span>
+                </div>
+              </div>
+            </div>
+            
+            <div class="demo__waves" id="nfc-waves">
+              <span></span><span></span><span></span>
+            </div>
+            
+            <div class="demo__phone" id="nfc-phone">
+              <div class="phone">
+                <div class="phone__screen" id="phone-screen">
+                  <div class="review-card" id="review-card">
+                    <span class="review-card__avatar">P</span>
+                    <strong>PEREZ TECH</strong>
+                    <span class="review-card__stars">★★★★★</span>
+                    <span class="review-card__btn">Avaliar no Google</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="demo__chip" id="nfc-chip">
+              <span class="chip-dot"></span> Clique na placa ou arraste o celular
+            </div>
+          </div>
+
+          <!-- Textos e Customizador -->
+          <div class="nfc__content" data-stagger>
+            <h3 class="reveal">Menos passos.<br>Mais avaliações.</h3>
+            
+            <div class="customizer reveal">
+              <p>Escolha o acabamento ideal para o seu balcão:</p>
+              <div class="customizer__swatches" id="plaque-colors">
+                <button class="swatch is-active" data-color="graphite" aria-label="Grafite"></button>
+                <button class="swatch" data-color="wood" aria-label="Madeira"></button>
+                <button class="swatch" data-color="pearl" aria-label="Pérola"></button>
+              </div>
+            </div>
+
+            <ul class="benefits">
+              <li class="reveal">
+                <span class="benefits__check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg></span>
+                <div><strong>Facilita o acesso</strong><p>Um toque e o cliente já está na página certa.</p></div>
+              </li>
+              <li class="reveal">
+                <span class="benefits__check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg></span>
+                <div><strong>Aumenta a reputação</strong><p>Mais avaliações positivas no Google.</p></div>
+              </li>
+            </ul>
+
+            <a href="#contato" data-wa data-service="digital" class="btn btn--primary reveal magnetic">
+              Quero minha placa
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================= CARTÕES DIGITAIS 3D ========================= -->
+    <section class="section cards" id="cartoes">
+      <div class="container cards__grid">
+        
+        <div class="cards__content" data-stagger>
+          <span class="eyebrow eyebrow--soon reveal"><span class="dot"></span> Em desenvolvimento</span>
+          <h2 class="reveal">Cartões <span class="grad">digitais</span> 3D</h2>
+          <p class="reveal">
+            Um cartão de visita que vive no seu celular. Frente e verso interativos,
+            com contato direto, redes sociais e botões de ação — tudo em um só toque.
+          </p>
+
+          <ul class="cards__list reveal">
+            <li>Nome, logotipo e identidade da empresa</li>
+            <li>Telefone e WhatsApp com contato direto</li>
+            <li>Endereço com acesso ao mapa</li>
+            <li>Redes sociais e links úteis</li>
+          </ul>
+
+          <p class="cards__note reveal">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 8h.01M11 12h1v5h1"/></svg>
+            Novidade futura — em breve disponível para contratação.
+          </p>
+        </div>
+
+        <div class="dcards reveal" aria-hidden="true">
+          <div class="dcards__item dcards__item--a">
+            <div class="dcards__float">
+              <div class="dcard magnetic-glow" tabindex="0" role="button" aria-label="Virar cartão digital">
+                <div class="dcard__inner">
+                  <div class="dcard__face dcard__face--front">
+                    <div class="dcard__logo">
+                      <span class="logo__mark logo__mark--sm">P</span>
+                      <span>PEREZ TECH</span>
+                    </div>
+                    <div class="dcard__mid">
+                      <strong>Seu Nome</strong>
+                      <span>Especialista</span>
+                    </div>
+                    <div class="dcard__foot">
+                      <span class="dcard__nfc">NFC</span>
+                      <span>Aproxime para conectar</span>
+                    </div>
+                  </div>
+                  <div class="dcard__face dcard__face--back">
+                    <strong class="dcard__back-title">Contato</strong>
+                    <ul class="dcard__contacts">
+                      <li><span>WhatsApp</span> +55 17 99241-1660</li>
+                      <li><span>Instagram</span> techperez</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================= COMO FUNCIONA ========================= -->
+    <section class="section steps-section" id="como-funciona">
+      <div class="container">
+        
+        <div class="section__head" data-stagger>
+          <span class="eyebrow reveal"><span class="dot"></span> Processo simples</span>
+          <h2 class="reveal">Como <span class="grad">funciona</span></h2>
+          <p class="reveal">Do primeiro contato à instalação final.</p>
+        </div>
+
+        <ol class="steps" data-stagger>
+          <li class="step reveal">
+            <div class="step__badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div>
+            <span class="step__num">01</span>
+            <h3>Diagnóstico</h3>
+            <p>Conversamos sobre sua necessidade e entendemos o espaço.</p>
+          </li>
+          
+          <li class="step reveal">
+            <div class="step__badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg></div>
+            <span class="step__num">02</span>
+            <h3>Projeto e Orçamento</h3>
+            <p>Desenhamos a melhor solução técnica e enviamos a proposta.</p>
+          </li>
+          
+          <li class="step reveal">
+            <div class="step__badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9L12 3Z"/></svg></div>
+            <span class="step__num">03</span>
+            <h3>Execução</h3>
+            <p>Instalação limpa, configuração e entrega do sistema funcionando.</p>
+          </li>
+        </ol>
+
+      </div>
+    </section>
+
+    <!-- ========================= DIFERENCIAIS ========================= -->
+    <section class="section why" id="diferenciais">
+      <div class="container">
+        
+        <div class="section__head" data-stagger>
+          <span class="eyebrow reveal"><span class="dot"></span> Diferenciais</span>
+          <h2 class="reveal">Por que escolher a <span class="grad">PEREZ TECH?</span></h2>
+        </div>
+
+        <div class="why__grid" data-stagger>
+          <article class="why__card reveal">
+            <span class="why__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="m13 2-9 12h7l-1 8 9-12h-7l1-8Z"/></svg></span>
+            <h3>Visão 360º</h3>
+            <p>Do cabeamento estruturado às soluções digitais de marketing. Tudo em um só parceiro.</p>
+          </article>
+          
+          <article class="why__card reveal">
+            <span class="why__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3.2"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3"/></svg></span>
+            <h3>Sob medida</h3>
+            <p>Nenhum projeto é igual ao outro. Adaptamos a tecnologia ao seu orçamento e espaço.</p>
+          </article>
+          
+          <article class="why__card reveal">
+            <span class="why__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="7" y="7" width="10" height="10" rx="2"/><path d="M10 3v2M14 3v2M10 19v2M14 19v2M3 10h2M3 14h2M19 10h2M19 14h2"/></svg></span>
+            <h3>Tecnologia Confiável</h3>
+            <p>Trabalhamos com equipamentos de qualidade e instalação profissional.</p>
+          </article>
+          
+          <article class="why__card reveal">
+            <span class="why__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M21 12a8 8 0 0 1-11.6 7.2L4 21l1.8-5.4A8 8 0 1 1 21 12Z"/></svg></span>
+            <h3>Suporte Próximo</h3>
+            <p>Atendimento direto com quem entende do assunto, sem robôs ou burocracia.</p>
+          </article>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================= CHAMADA FINAL ========================= -->
+    <section class="section cta" id="contato">
+      <div class="cta__glow" aria-hidden="true"></div>
+      <div class="container cta__inner" data-stagger>
+        
+        <h2 class="reveal">Pronto para o <span class="grad">próximo nível?</span></h2>
+        <p class="reveal">
+          Fale com nossos especialistas e descubra como podemos transformar sua casa ou empresa.
+        </p>
+        
+        <a href="#contato" data-wa data-service="geral" class="btn btn--primary btn--lg reveal magnetic">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.46 1.32 4.96L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2Zm5.8 14.06c-.24.68-1.4 1.3-1.93 1.35-.53.05-1.02.24-3.44-.72-2.92-1.15-4.75-4.16-4.9-4.36-.14-.2-1.15-1.53-1.15-2.92 0-1.39.73-2.07.99-2.35.26-.28.56-.35.75-.35.19 0 .38 0 .54.01.17.01.4-.07.63.48.24.56.8 1.95.87 2.09.07.14.12.31.02.5-.1.19-.15.31-.29.48-.14.17-.3.38-.43.51-.14.14-.29.29-.12.57.17.28.75 1.24 1.62 2.01 1.11.99 2.05 1.3 2.34 1.44.29.14.46.12.63-.07.17-.19.72-.84.91-1.13.19-.29.38-.24.63-.14.26.1 1.65.78 1.93.92.29.14.48.21.55.33.07.12.07.68-.17 1.36Z"/></svg>
+          Solicitar Orçamento
+        </a>
+        
+      </div>
+    </section>
+  </main>
+
+  <!-- ============================= RODAPÉ ============================= -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      
+      <div class="footer__brand">
+        <a href="#hero" class="logo">
+          <img src="./src/image/logo.png.png" alt="PEREZ TECH" class="logo__img">
+        </a>
+        <p>Conectando espaços, otimizando rotinas e protegendo o que importa.</p>
+      </div>
+
+      <nav class="footer__nav" aria-label="Navegação do rodapé">
+        <h4>Serviços</h4>
+        <a href="#servicos">Segurança</a>
+        <a href="#servicos">Automação</a>
+        <a href="#servicos">Redes</a>
+        <a href="#solucoes-digitais">Soluções Digitais</a>
+      </nav>
+
+      <div class="footer__social">
+        <h4>Contato</h4>
+        <a href="#contato" data-wa data-service="geral">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.46 1.32 4.96L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2Zm5.8 14.06c-.24.68-1.4 1.3-1.93 1.35-.53.05-1.02.24-3.44-.72-2.92-1.15-4.75-4.16-4.9-4.36-.14-.2-1.15-1.53-1.15-2.92 0-1.39.73-2.07.99-2.35.26-.28.56-.35.75-.35.19 0 .38 0 .54.01.17.01.4-.07.63.48.24.56.8 1.95.87 2.09.07.14.12.31.02.5-.1.19-.15.31-.29.48-.14.17-.3.38-.43.51-.14.14-.29.29-.12.57.17.28.75 1.24 1.62 2.01 1.11.99 2.05 1.3 2.34 1.44.29.14.46.12.63-.07.17-.19.72-.84.91-1.13.19-.29.38-.24.63-.14.26.1 1.65.78 1.93.92.29.14.48.21.55.33.07.12.07.68-.17 1.36Z"/></svg>
+          WhatsApp
+        </a>
+        <a href="https://www.instagram.com/techperez" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r="1.2" fill="currentColor" stroke="none"/></svg>
+          Instagram
+        </a>
+      </div>
+      
+    </div>
+
+    <div class="container footer__bottom">
+      <span>© <span id="year"></span> PEREZ TECH. Todos os direitos reservados.</span>
+    </div>
+  </footer>
+
+  <!-- JS Principal -->
+  <script src="./src/js/main.js"></script>
+</body>
+</html>
